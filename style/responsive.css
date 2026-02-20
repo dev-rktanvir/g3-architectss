@@ -1,0 +1,33 @@
+/* Responsive for Mobile Device */
+
+@media screen and (max-width: 576px) {
+
+    /* Navbar */
+    .menu-items {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+
+
+}
+
+/* Responsive for Tablet */
+@media screen and (min-width: 576px) and (max-width:992px) {
+
+    /* Navbar */
+    .menu-items {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+        font-size: 40px;
+        cursor: pointer;
+    }
+}
