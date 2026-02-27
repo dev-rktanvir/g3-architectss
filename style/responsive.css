@@ -42,6 +42,7 @@
     .quick-container h2 {
         text-align: center;
     }
+
     .quick-container p {
         text-align: justify;
     }
@@ -49,8 +50,26 @@
     .quick-img {
         grid-template-columns: repeat(1, 1fr);
     }
-    .quick-content{
+
+    .quick-content {
         text-align: center;
+    }
+
+    /* feature section */
+    .feature-container {
+        flex-direction: column;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .exp-btn {
+        margin-left: 0px;
+         padding: 20px 30px;
+    }
+    .feature h2{
+        font-size: 2.5rem;
     }
 
 
@@ -96,12 +115,32 @@
     .quick-container h2 {
         text-align: center;
     }
-    
+
 
     .quick-img {
         grid-template-columns: repeat(2, 1fr);
     }
-    .quick-content{
+
+    .quick-content {
         text-align: center;
     }
+
+    /* feature section */
+    .feature-container {
+        flex-direction: column;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .exp-btn {
+        margin-left: 0px;
+         padding: 20px 30px;
+    }
+    .feature h2{
+        font-size: 2.5rem;
+    }
+
+
 }

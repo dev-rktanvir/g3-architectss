@@ -27,7 +27,7 @@ html {
 .text {
     font-size: 1rem;
     line-height: 1.625rem;
-    columns: #727272;
+    color: #727272;
     margin-top: 24px;
     margin-bottom: 32px;
 }
@@ -57,10 +57,12 @@ html {
 img {
     max-width: 100%;
 }
-.hide{
+
+.hide {
     display: none;
 }
-.flex-1{
+
+.flex-1 {
     flex: 1;
 }
 
@@ -103,21 +105,64 @@ nav ul li a {
 }
 
 /* Quick Feature section style */
-.quick-feature{
+.quick-feature {
     margin: 130px auto;
 }
-.quick-container{
+
+.quick-container {
     gap: 70px;
 }
-.feature{
+
+.feature {
     color: #FF900E;
 }
-.quick-list{
+
+.quick-list {
     color: #727272;
     font-weight: 500;
 }
-.quick-img{
+
+.quick-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+}
+
+/* Feature section style */
+.feature-container {
+    gap: 40px;
+}
+
+.feature h2 {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+
+.experience {
+    font-size: 4.0625rem;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.exp-btn {
+    padding: 45px 42px;
+    margin-left: -100px;
+    margin-top: -180px;
+    z-index: 10;
 }
