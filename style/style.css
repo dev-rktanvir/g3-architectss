@@ -60,6 +60,9 @@ img {
 .hide{
     display: none;
 }
+.flex-1{
+    flex: 1;
+}
 
 /* ************************************************** */
 
@@ -97,4 +100,24 @@ nav ul li a {
 .hero p {
     max-width: 60%;
     margin: 28px auto;
+}
+
+/* Quick Feature section style */
+.quick-feature{
+    margin: 130px auto;
+}
+.quick-container{
+    gap: 70px;
+}
+.feature{
+    color: #FF900E;
+}
+.quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.quick-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
 }

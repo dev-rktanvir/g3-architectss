@@ -1,7 +1,7 @@
 /* Responsive for Mobile Device */
 
 @media screen and (max-width: 576px) {
-    html{
+    html {
         font-size: 14px;
     }
 
@@ -15,15 +15,42 @@
         font-size: 40px;
         cursor: pointer;
     }
+
     /* Hero content */
-    header{
+    header {
         padding: 15px 0;
     }
-    .hero p{
+
+    .hero p {
         max-width: 100%;
+        text-align: justify;
     }
-    .hero-content{
+
+    .hero-content {
         margin-top: 50px;
+    }
+
+    /* Quick feature style */
+    .quick-feature {
+        margin: 50px auto;
+    }
+
+    .quick-container {
+        flex-direction: column-reverse;
+    }
+
+    .quick-container h2 {
+        text-align: center;
+    }
+    .quick-container p {
+        text-align: justify;
+    }
+
+    .quick-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quick-content{
+        text-align: center;
     }
 
 
@@ -43,14 +70,38 @@
         font-size: 40px;
         cursor: pointer;
     }
+
     /* Hero content */
-    header{
+    header {
         padding: 20px 0;
     }
-    .hero p{
+
+    .hero p {
         max-width: 100%;
     }
-    .hero-content{
+
+    .hero-content {
         margin-top: 70px;
+    }
+
+    /* Quick feature style */
+    .quick-feature {
+        margin: 70px auto;
+    }
+
+    .quick-container {
+        flex-direction: column-reverse;
+    }
+
+    .quick-container h2 {
+        text-align: center;
+    }
+    
+
+    .quick-img {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .quick-content{
+        text-align: center;
     }
 }
